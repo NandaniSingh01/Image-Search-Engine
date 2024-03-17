@@ -63,8 +63,8 @@ form button{
     width: 80%;
     margin: 100px auto 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap : 40px;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap : 1rem;
 }
 #search-result img{
     width: 100%;
